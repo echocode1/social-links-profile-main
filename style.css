@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: 'Inter';
+    font-size: 14px;
+    background-color:hsl(0, 0%, 12%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.social-link__container{
+    max-width: 571px;
+    background-color:hsl(0, 0%, 20%);
+    padding: 1.5rem;
+    margin: 20px;
+    border-radius: 15px;
+    color: hsl(0, 0%, 100%);
+}
+img{
+    width: 100%;
+}
+.headings img{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    opacity: 80%;
+    margin-bottom: 1rem;
+}
+.headings #profile-name{
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+#profile-residence{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+#profile-career{
+    margin-bottom: 1rem;
+}
+.handles{
+    display: flex;
+    flex-direction: column;
+}
+.handles .social-handles{
+    margin-top: 15px;
+    padding: 15px 0px;
+    background-color:hsl(0, 1%, 28%);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+.social-handles a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+@media(min-width:571px){
+    .social-link__container{
+        width: 300px;
+    }
+}
